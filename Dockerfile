@@ -1,4 +1,4 @@
-FROM 083636136646.dkr.ecr.ap-northeast-1.amazonaws.com/my-nginx:latest
+FROM public.ecr.aws/amazonlinux/amazonlinux:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
